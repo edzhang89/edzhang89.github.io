@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Eddie Zhang</title>
 
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+	
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+	<script type="text/javascript" src="progressbar/progressbar.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="progressbar/progressbar.css">
+	<link rel="stylesheet" type="text/css" href="progressbar/skins/default/progressbar.css">
+	
   </head>
   <body>
     <div class="wrapper">
@@ -28,21 +37,26 @@
 </script>
 
         <h1>Eddie Zhang</h1>
-        <p><img src="http://w.edzhang.com/eddiemd.png"></img></p>
+        <p><img class="headshot" src="images/eddiemd.png"></img></p>
+
 
       </header>
       <section>
         <h3>
 <a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h3>
 
-<p>Eddie Zhang is a fourth-year medical student at the Icahn School of Medicine at Mount Sinai in New York, NY. He is the Co-Founder and Chief Operating Officer of <a href="http://www.proghealth.org">Progressive Health Partnership</a>, an organization that works on issues of maternal and child health in Southwestern Uganda. In addition to being an aspiring oncologist and global health advocate, he is passionate about issues of mortality and end-of-life care, harnessing the power of technology for social good, and <a href="http://en.wikipedia.org/wiki/Life_hacking">lifehacking</a>. In his spare time, he brews beer in his tiny New York City apartment. Eddie received a B.A. in English Literature from Duke University in 2010.</p>
+<p>Eddie Zhang is a fourth-year medical student at the Icahn School of Medicine at Mount Sinai in New York, NY. He is the Co-Founder and Chief Operating Officer of <a href="http://www.proghealth.org">Progressive Health Partnership</a>, a 501(c)3 organization that works on issues of maternal and child health in Southwestern Uganda. In addition to being an aspiring oncologist and global health advocate, he is passionate about issues of mortality and end-of-life care, harnessing the power of technology for social good, and <a href="http://en.wikipedia.org/wiki/Life_hacking">lifehacking</a>. In his spare time, he brews beer in his tiny New York City apartment. Eddie received a B.A. in English Literature from Duke University in 2010.</p>
+
 
 <h3>
 <a name="writing" class="anchor" href="#writing"><span class="octicon octicon-link"></span></a>Writing</h3>
 
 <ul>
 <li><a href="http://www.medium.com/@ezhang">medium</a></li>
-</ul><h3>
+</ul>
+
+
+<h3>
 <a name="connect" class="anchor" href="#connect"><span class="octicon octicon-link"></span></a>Connect</h3>
 
 <ul>
@@ -51,9 +65,31 @@
 <li><a href="http://www.linkedin.com/in/edzhang">linkedin</a></li>
 <li><a href="http://www.twitter.com/ezhang">twitter/@ezhang</a></li>
 </ul>
+
+<h3><a name="projects" class="anchor" href="#projects"><span class="octicon octicon-link"></span></a>Current Projects</h3>
+
+      	<b>Seminal Vesicle Implantation in the Treatment of Prostate Cancer</b><br>Investigating the benefit of specific implantation of the seminal vesicles in <a href="http://en.wikipedia.org/wiki/Prostate_brachytherapy">low dose rate brachytherapy</a> treatment for prostate cancer. Currently preparing first-author manuscript for publication.<div id="progressBar1" class="default"><div></div></div>
+          <script>
+		        progressBar(80, $('#progressBar1'));
+	        </script>
+		<br>
+				
+	   	<b>Evaluation of an Institutional Rainwater Harvesting Program</b><br>
+		Impact evaluation of <a href="http://www.proghealth.org/what/uganda/rainwater-harvesting/">rainwater harvesting program</a> conducted by Progressive Health Partnership in 2010-2013. Currently preparing manuscript for publication.<div id="progressBar2" class="default"><div></div></div>
+          <script>
+		        progressBar(50, $('#progressBar2'));
+	        </script>
+		<br>
+
+		<b>Creation of a Medical School Humanities Curriculum in Mortality and Dying</b><div id="progressBar3" class="default"><div></div></div>
+          <script>
+		        progressBar(5, $('#progressBar3'));
+	        </script>
+
+<p>
+
       </section>
       <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>

@@ -1,0 +1,44 @@
+#progressBar1 {
+	margin-left: 0px;
+	width: 400px;
+	height: 18px;
+}
+
+#progressBar1 div {
+	height: 100%;
+	color: #fff;
+	text-align: right;
+	font-size: 12px;
+	line-height: 18px;
+	width: 0;
+}
+
+#progressBar2 {
+	margin-left: 0px;
+	width: 400px;
+	height: 18px;
+}
+
+#progressBar2 div {
+	height: 100%;
+	color: #fff;
+	text-align: right;
+	font-size: 12px;
+	line-height: 18px;
+	width: 0;
+}
+
+#progressBar3 {
+	margin-left: 0px;
+	width: 400px;
+	height: 18px;
+}
+
+#progressBar3 div {
+	height: 100%;
+	color: #fff;
+	text-align: right;
+	font-size: 12px;
+	line-height: 18px;
+	width: 0;
+}
