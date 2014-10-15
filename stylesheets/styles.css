@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:32px;
+  font-size:38px;
 }
 
 h2 {
@@ -257,6 +257,12 @@ footer {
 img.headshot {
 	height:85%;
 	width:85%;
-	padding-top:20px;
+	padding-top:0px;
 	padding-left:40px;
+	}
+
+h1.nameplate {
+	margin-top: -42px;
+	padding-left: 50px;
+	color:#0099ff;
 	}
