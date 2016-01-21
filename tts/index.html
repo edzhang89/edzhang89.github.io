@@ -10,8 +10,24 @@ $(document).ready(function(){
     $('#button').click(function(e) {  
         var inputvalue = $("#input").val();
         window.location.replace("http://98.115.181.46:1035/?SPEAK=@|SPEAK="+inputvalue+"&@DONE@");
-
     });
+	
+	$('#button2').click(function(e) {
+        window.location.replace("http://98.115.181.46:1035/?SPEAK=@|ALARM=CHIME&@DONE@");
+    });
+	
+	$('#button3').click(function(e) {
+        window.location.replace("http://98.115.181.46:1035/?SPEAK=@|ALARM=DOORBELL&@DONE@");
+    });
+	
+	$('#button4').click(function(e) {
+        window.location.replace("http://98.115.181.46:1035/?SPEAK=@|ALARM=SIREN&@DONE@");
+	});
+	
+	$('#button5').click(function(e) {
+        window.location.replace("http://98.115.181.46:1035/?SPEAK=@|ALARM=ALARM&@DONE@");
+    });
+	
 });
 </script> 
 </head>
@@ -19,5 +35,14 @@ $(document).ready(function(){
 
        <input type="text" value="" id="input"> 
        <button type="button" id="button">Send to Alexa!</button>
+	   <br \>
+	   <br \>
+	   <button type="button" id="button2">Chime</button>
+	   <br \>
+	   <button type="button" id="button3">Doorbell</button>
+	   <br \>
+	   <button type="button" id="button4">Siren</button>
+	   <br \>
+	   <button type="button" id="button5">Missle Warning</button>
 </body>
 </html>
