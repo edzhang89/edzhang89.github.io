@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>608 text-to-speech input</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    $('#button').click(function(e) {  
+        var inputvalue = $("#input").val();
+        window.location.replace("http://98.115.181.46:1035/?SPEAK=@|SPEAK="+inputvalue+"&@DONE@");
+
+    });
+});
+</script> 
+</head>
+<body>
+
+       <input type="text" value="" id="input"> 
+       <button type="button" id="button">Send to Alexa!</button>
+</body>
+</html>
